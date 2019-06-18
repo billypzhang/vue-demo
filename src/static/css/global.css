@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+.tmpl{
+    margin-bottom: 50px;
+}
+
+.photoDetail figure{
+    width: 33.33% !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 1em !important;
+}
+.photoDetail figure img{
+    width: 100%;
+    height: 150px;
+}
