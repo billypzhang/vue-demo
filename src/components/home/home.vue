@@ -60,7 +60,6 @@ export default {
   created() {
     this.$ajax.get("/api/lunbo").then(res => {
       this.imgs = res.data.data
-      console.log(res.data.data)
     })
   }
 }
